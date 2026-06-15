@@ -144,7 +144,7 @@ if purchase_file and gstr2b_file:
         .apply(utils.normalize_invoice)
     )
     # RECON
-    final_df, cdnr_df, extra_2b = reconcile_data(
+    final_df, cdnr_df, extra_2b = utils.reconcile_data(
         purchase_df,
         gstr2b_df
     )
