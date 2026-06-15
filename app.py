@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
-from utils import *
+# from utils import *
+import utils
 # -----------------------------------
 # PAGE CONFIG
 # -----------------------------------
